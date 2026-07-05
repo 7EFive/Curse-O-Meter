@@ -1,0 +1,404 @@
+body {
+    background: rgb(10, 10, 28);
+    color: #ffffff;
+    position: relative;
+    font-size: 30px;
+    padding: 15px;
+
+}
+.lev1{
+    color:#2FFF00;
+}
+.lev2{
+    color:#B7F200;
+}
+.lev3{
+    color:#FFE300;
+}
+.lev4{
+    color:#FF7300;
+}
+.lev5{
+    color:#FF0600;
+}
+
+.m_h{
+    padding:2px 10px;
+    border: 2px solid #A0A0AC;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    text-decoration: underline;
+    border-radius:10px;
+    text-decoration: none;
+}
+.LT{
+    display:inline-flex;
+    position:relative;
+}
+.m_h:hover{
+    border: 2px solid white;
+    color: rgb(10, 10, 28);
+    background-color:white;
+    border-radius:15px;
+}
+.example{
+    text-align:center;
+}
+#a_vec{
+    border-radius:30px;
+    border:2px solid white;
+}
+#a_bg{
+    border-radius:30px;
+    border:2px
+}
+
+.cont{
+    text-align:left;
+    bottom:15px;
+    color:#A0A0AC;
+    
+}
+
+.sml_font{
+    font-size:15px;
+    text-align: center;
+    color:#A0A0AC;
+}
+a {
+    color: rgb(255, 255, 255);
+    border-radius:25px;
+}
+/*a:hover{
+    color: rgb(10, 10, 28);
+    background-color:white;
+    border-radius:25px;
+    text-decoration: none;
+    padding:2px 10px;
+}
+.non_h:hover{
+    color: rgb(10, 10, 28);
+    text-decoration: none;
+}
+
+*/
+
+
+
+p,
+li,
+h3 {
+    font-size: 30px;
+    color: #A0A0AC;
+}
+
+
+
+.COmeter {
+    font-size: 50px;
+    margin: auto;
+    padding: 20px;
+    width: 1200px;
+    height: auto;
+    bottom: 225px;
+    box-sizing: border-box;
+    background: #02001e00;
+    border: 5px solid #ffffff79;
+    border-radius: 30px;
+}
+
+/* hovering icon change source https://www.youtube.com/watch?v=NHb3o3sP9iA&ab_channel=themesCode*/
+.logos {
+    width: 500px;
+    height:auto;
+    left: 150px;
+    position: relative;
+    top: 0px;
+    right: 50%;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.logos img {
+    width: 500px;
+    height:auto;
+
+}
+
+.logohover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.logohover:hover {
+    opacity: 1;
+}
+
+/* hovering icon change source end*/
+
+#title {
+    position: relative;
+    top: -20px;
+    left: 45%;
+}
+
+h2 {
+    font-family: Reem Kufi;
+    text-align: center;
+    font-size: 50px;
+}
+h1 {
+    font-family: Reem Kufi;
+    text-align: center;
+    text-decoration: underline;
+}
+.manual{
+    text-align: left;
+}
+
+.meter {
+    background-color: rgba(255, 255, 255, 0.091);
+    padding: 2%;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+
+.buttons {
+    margin: 20px;
+    display: flex;
+
+}
+
+.mb {
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    bottom: 20%;
+
+}
+
+.mb button {
+    padding: 15px;
+}
+
+/*.mb:hover{
+    background-color:white;
+    color: rgb(10, 10, 28);
+    border-radius: 25px;
+}*/
+.mb:hover {
+    background-color: rgba(255, 255, 255, 0.091);
+    color: rgb(10, 10, 28);
+    border-radius: 25px;
+    border: 0px solid rgba(0, 0, 0, 0);
+
+}
+
+.THB {
+    position: static;
+    padding: 1px 10px 0px;
+    background-color: #ffffff79;
+    width: 300px;
+    height: auto;
+    border-radius: 25px;
+    margin: 1em;
+}
+
+input {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+    font-size: 30px;
+}
+
+input:hover {
+    background-color: #ffffff79;
+    color: rgb(10, 10, 28);
+    transition: hover .5s;
+}
+
+.footer {
+    padding-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    text-align: center;
+    border-radius: 25px;
+}  
+/*.feeter {
+    text-align: center;
+    padding: 10px;
+    font-size: 100px;
+
+}*/
+
+.footer button {
+    padding: 20px;
+    font-size:25px;
+}
+
+#cr {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+
+#info {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+
+}
+#qa_start{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; 
+}
+
+.buttons input {
+    font-family: Reem Kufi;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+    font-size: 30px;
+    border-radius: 25px;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+    font-size: 30px;
+
+}
+
+.buttons button {
+    border-radius: 25px;
+}
+
+#submit {
+    display: none;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transition: opacity .5s;
+    color: rgb(10, 10, 28);
+    border: 2px solid rgba(0, 0, 0, 0);
+}
+
+td {
+    border: 2px solid #ffffff79;
+    padding: 15px;
+}
+#left-top-td{
+    border-top-left-radius: 10px;
+}
+#right-top-td{
+    border-top-right-radius: 10px;
+}
+#left-bottom-td{
+    border-bottom-left-radius: 10px;
+}
+#right-bottom-td{
+    border-bottom-right-radius: 10px;
+}
+.icon_H {
+    position: fixed;
+    text-align: center;
+}
+
+.icon {
+    height: 200px;
+    width: auto;
+}
+
+/* habe das erstzen von radio buttons hier https://stackoverflow.com/questions/17541614/use-images-instead-of-radio-buttons*/
+
+input[type=radio] {
+    height: 50px;
+    width: 50px;
+    border:1px solid;
+}
+input[type=radio]:hover+img {
+    opacity:1;
+    border: white;
+    background-color: rgb(10, 10, 28);
+    transition: background-color .5s;
+    transition: opacity .5s;
+    border-radius:50px;
+}
+
+[type=radio] {
+    position: absolute;
+    opacity: 0;
+}
+
+/* IMAGE STYLES */
+[type=radio]+img {
+    cursor: pointer;
+    opacity: 0.1;
+}
+
+
+/* CHECKED STYLES */
+[type=radio]:checked+img {
+    opacity: 0.75;
+    transition: opacity .3s;
+    background-color: rgb(10, 10, 28);
+    border-radius:50px;
+
+}
+
+.ic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 175px;
+
+}
+
+@media (max-width: 1200px) {
+    
+    .icon {
+        width: 250px;
+        height: auto;
+    }
+    .COmeter{
+        width: 590px;
+    }
+
+    input[type=radio]:hover+img,
+    [type=radio]:checked+img {
+    border-radius:55px;
+    }
+
+    h2 {
+        font-size:35px;
+    }
+    .meter{
+        display: flex;
+        flex-direction: column; /* or row */
+        gap: 12px;
+    }
+    .buttons button {
+        border-radius: 25px;
+    }
+    .mb button {
+        padding:10px;
+    }
+    .sml_font{
+        font-size:25px;
+    }
+    .LT .cont li{
+        font-size: 10px;
+    }
+}
+

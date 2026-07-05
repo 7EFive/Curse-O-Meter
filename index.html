@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" media="screen" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="img/site.webmanifest">
+    <link rel="mask-icon" href="img/safari-pinned-tab.svg" color="#3d4345">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Cursed-O-Meter</title>
+</head>
+
+<body>
+    <div class="logos">
+        <img class="logomain" src="img/logo.png" alt="logo" id="logo">
+        <img class="logohover" src="img/logo_fr.png" alt="logo" id="logo2" onclick="window.location.href='index.html';">
+    </div>
+
+    <div class="COmeter">
+        <h2>Choose your Cursed-o-meter level</h2>
+        <h3 class="sml_font">It is advised to checking out the <a href="manual.html" class="m_h">Manual</a> before
+            interacting with this page.</h3>
+        <div class="meter">
+            <label>
+                <input type="radio" name="OM" id="One" class="check-mark">
+                <img src="img/lv1.png" id="lv1" class="icon" alt="lvl1">
+                <!--<img src="img/Lv1w.png" id="lv1" class="icon_H">-->
+            </label>
+            <label>
+                <input type="radio" name="OM" id="Two" class="check-mark">
+                <img src="img/lv2.png" class="icon" id="lv2" alt="lvl2">
+                <!--<img src="img/Lv2w.png" id="lv2" class="icon_H">-->
+            </label>
+            <label>
+                <input type="radio" name="OM" id="Three" class="check-mark">
+                <img src="img/lv3.png" class="icon" id="lv3" alt="lvl3">
+                <!--<img src="img/Lv3w.png" id="lv3" class="icon_H">-->
+            </label>
+            <label>
+                <input type="radio" name="OM" id="Four" class="check-mark">
+                <img src="img/lv4.png" class="icon" id="lv4" alt="lvl4">
+                <!--<img src="img/Lv4w.png" id="lv4" class="icon_H">-->
+            </label>
+            <label>
+                <input type="radio" name="OM" id="Five" class="check-mark">
+                <img src="img/lv5.png" class="icon" id="lv5" alt="lvl5">
+                <!--<img src="img/Lv5w.png" id="lv5" class="icon_H">-->
+            </label>
+        </div>
+        <div class="buttons">
+            <div class="mb">
+                <button type="submit" id="rand">Random</button>
+            </div>
+            <div class="mb">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </div>
+    </div>
+   
+    <div class="footer">
+        <button type="button" id="cr" onclick="window.location.href='cr.html';">Creator Page</button>
+        <button type="button" id="qa_start" onclick="window.location.href='qa.html';">Q&A</button>
+    </div>
+    
+    <script>
+        
+        let level = 0
+        One.addEventListener("change", () => {
+            level = 1;
+            document.getElementById("submit").style.display = "flex";
+
+            document.getElementsByClassName("COmeter")[0].style.border = "5px solid #2FFF0080";
+            document.getElementsByClassName("COmeter")[0].style.color = "#2FFF00";
+            document.getElementById("submit").style.border = "5px solid #2FFF00";
+            document.getElementById("rand").style.color = "#2FFF00";
+            document.getElementById("rand").style.border = "6px solid #2FFF00";
+            document.getElementById("submit").style.color = "#2FFF00";
+            document.getElementsByClassName("COmeter")[0].style.boxShadow = "1px 1px 30px #2FFF00";
+            document.getElementById("cr").style.color = "#ffffff79";
+            document.getElementById("cr").style.border = "2px solid #ffffff79";
+            document.getElementById("qa_start").style.color = "#ffffff79";
+            document.getElementById("qa_start").style.border = "2px solid #ffffff79";
+            document.getElementById("logo").style.opacity = "0.79";
+
+           
+
+
+        });
+        Two.addEventListener("change", () => {
+            level = 2;
+            document.getElementById("submit").style.display = "flex";
+
+            document.getElementsByClassName("COmeter")[0].style.border = "5px solid #B7F20080";
+            document.getElementsByClassName("COmeter")[0].style.color = "#B7F200";
+            document.getElementById("submit").style.border = "5px solid #B7F200";
+            document.getElementById("rand").style.color = "#B7F200";
+            document.getElementById("rand").style.border = "6px solid #B7F200";
+            document.getElementById("submit").style.color = "#B7F200";
+            document.getElementsByClassName("COmeter")[0].style.boxShadow = "1px 1px 30px #B7F200";
+            document.getElementById("cr").style.color = "#ffffff79";
+            document.getElementById("cr").style.border = "2px solid #ffffff79";
+            document.getElementById("qa_start").style.color = "#ffffff79";
+            document.getElementById("qa_start").style.border = "2px solid #ffffff79";
+            document.getElementById("logo").style.opacity = "0.79";
+
+           
+        });
+        Three.addEventListener("change", () => {
+            level = 3;
+            document.getElementById("submit").style.display = "flex";
+
+            document.getElementsByClassName("COmeter")[0].style.border = "5px solid #FFE30080";
+            document.getElementsByClassName("COmeter")[0].style.color = "#FFE300";
+            document.getElementById("submit").style.border = "5px solid #FFE300";
+            document.getElementById("rand").style.color = "#FFE300";
+            document.getElementById("rand").style.border = "6px solid #FFE300";
+            document.getElementById("submit").style.color = "#FFE300";
+            document.getElementsByClassName("COmeter")[0].style.boxShadow = "1px 1px 30px #FFE300";
+            document.getElementById("cr").style.color = "#ffffff79";
+            document.getElementById("cr").style.border = "2px solid #ffffff79";
+            document.getElementById("qa_start").style.color = "#ffffff79";
+            document.getElementById("qa_start").style.border = "2px solid #ffffff79";
+            document.getElementById("logo").style.opacity = "0.79";
+
+            
+        });
+        Four.addEventListener("change", () => {
+            level = 4;
+            document.getElementById("submit").style.display = "flex";
+
+            document.getElementsByClassName("COmeter")[0].style.border = "5px solid #FF730080";
+            document.getElementsByClassName("COmeter")[0].style.color = "#FF7300";
+            document.getElementById("submit").style.border = "5px solid #FF7300";
+            document.getElementById("rand").style.color = "#FF7300";
+            document.getElementById("rand").style.border = "6px solid #FF7300";
+            document.getElementById("submit").style.color = "#FF7300";
+            document.getElementsByClassName("COmeter")[0].style.boxShadow = "1px 1px 30px #FF7300";
+            document.getElementById("cr").style.color = "#ffffff79";
+            document.getElementById("cr").style.border = "2px solid #ffffff79";
+            document.getElementById("qa_start").style.color = "#ffffff79";
+            document.getElementById("qa_start").style.border = "2px solid #ffffff79";
+            document.getElementById("logo").style.opacity = "0.79";
+
+           
+        });
+        Five.addEventListener("change", () => {
+            level = 5;
+            document.getElementById("submit").style.display = "flex";
+
+            document.getElementsByClassName("COmeter")[0].style.border = "5px solid #FF060080";
+            document.getElementsByClassName("COmeter")[0].style.color = "#FF0600";
+            document.getElementById("submit").style.border = "5px solid #FF0600";
+            document.getElementById("rand").style.color = "#FF0600";
+            document.getElementById("rand").style.border = "6px solid #FF0600";
+            document.getElementById("submit").style.color = "#FF0600";
+            document.getElementsByClassName("COmeter")[0].style.boxShadow = "1px 1px 30px #FF0600";
+            document.getElementById("cr").style.color = "#ffffff79";
+            document.getElementById("cr").style.border = "2px solid #ffffff79";
+            document.getElementById("qa_start").style.color = "#ffffff79";
+            document.getElementById("qa_start").style.border = "2px solid #ffffff79";
+            document.getElementById("logo").style.opacity = "0.79";
+
+           
+
+        });
+
+        submit.addEventListener("click", () => {
+            localStorage.setItem('lvl', String(level));
+            window.location.href = "answer.html";
+        });
+
+        rand.addEventListener("click", () => {
+            let randomLevel = Math.floor(Math.random() * 6);
+            localStorage.setItem('lvl', randomLevel);
+            window.location.href = "answer.html";
+        });
+        cr.addEventListener("click", () => {
+            window.location.href = "cr.html";
+        });
+        qa_start.addEventListener("click", () => {
+            window.location.href = "qa.html";
+        });
+        /*info.addEventListener("click", () => {
+            window.location.href = "info.html";
+        });*/
+    </script>
+
+</body>
+
+</html>
